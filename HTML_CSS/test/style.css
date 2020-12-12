@@ -1,0 +1,42 @@
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+/* リセットCSSここまで */
+
+header {
+  padding: 20px;
+  background-color: lightyellow;
+  }
+
+.logo {
+  text-align: center;
+  height: 150px;
+  font-weight: bold;
+  font-size: 100px;
+}
+.lists {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  height: 80px;
+  width: 20vw;
+  font-size: 50px;
+  border: 1px solid black;
+}
+.reserve {
+  background-color: black;
+  color: white;
+}
